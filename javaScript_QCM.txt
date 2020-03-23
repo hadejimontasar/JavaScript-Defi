@@ -1,0 +1,29 @@
+JavaScript QCM
+
+Q1:B
+Q2:HelloSimplon
+Q3:A/B même résultat
+Q4:A
+Q5:B
+Q6:C
+Q7:A
+Q8:B
+Q9:C
+Q10:erreur Google manque "" sinon le dernier var.
+Q11:D
+Q12:C
+Q13:B
+Q14:A
+Q15:A/D
+Q16:C
+Q17:Ford
+Q18:A
+Q19:C
+Q20:D
+Q21:A
+Q22:B
+Q23:B
+Q24:A
+Q25:A
+Q26:C
+Q27:B
