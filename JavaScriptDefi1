@@ -1,0 +1,91 @@
+function hello(){
+  return "{Hello simplonien}"
+}
+console.log(hello())
+
+function sumNumber(num1,num2){
+  return num1 + num2
+}
+console.log(sumNumber(5,12))
+
+function areaTriangle(base,height){
+  return (base*height) / 2
+}
+console.log(areaTriangle(4,7))
+
+function perimeter(width,height){
+  return (width+height) * 2
+}
+console.log(perimeter(5,4))
+
+function square(num){
+  return num * 4
+}
+console.log(square(4))
+
+function remainder(num1,num2){
+  return num1 % num2
+}
+console.log(remainder(5,4))
+
+function howManySeconds(hours){
+  return (hours * 60) * 60
+}
+console.log(howManySeconds(2))
+
+function howManySecond(hours,minutes){
+  return (hours * 60) * 60 + minutes * 60
+}
+console.log(howManySecond(2,1))
+
+function sayHello(name){
+  return "Hello" + " " + name
+}
+console.log(sayHello("Simplon"))
+
+function StrLength(string){
+  return string.length
+}
+console.log(StrLength("test"))
+
+function LastFirst(first, last){
+  return '"' + last + "," + first +'"'
+}
+console.log(LastFirst("firstName","lastName"))
+
+function increment(num){
+  return num +=1
+}
+console.log(increment(3))
+
+function increments(num){
+   for(let i=0; i<=1; i++){
+   return num+=1
+  }
+}
+console.log(increments(4))
+
+function numberArgs(a,z,e,r,t,y,d){
+return numberArgs.length
+}
+console.log(numberArgs())
+
+function toInt(string){
+return parseInt(string)
+}
+console.log(toInt("22"))
+
+function toStr(num){
+return num.toString();
+}
+console.log(toStr("123"))
+
+function toAscii(char){
+  return char.charCodeAt()
+}
+console.log(toAscii("b"))
+
+function amount(num){
+  return num.toString().length
+}
+console.log(amount(23232))
