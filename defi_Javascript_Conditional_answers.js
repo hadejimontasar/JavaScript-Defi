@@ -113,4 +113,24 @@ function AlphabetSoup(str){
 }
 console.log(AlphabetSoup("cda"))
 
+function incrementOrDecrement(num){
+    if(num % 2 === 0){
+        return num+=1
+    }
+    else 
+    return num = num-1
+}
+console.log(incrementOrDecrement(2))
 
+function  toString(num1, num2){
+    if(num1 < num2){
+        num1.toString()
+      return num1  
+    }
+    else
+    {
+        num2.toString()
+        return num2
+    }
+}
+console.log(toString(1000,440))
