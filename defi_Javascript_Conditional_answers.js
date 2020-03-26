@@ -113,6 +113,14 @@ function AlphabetSoup(str){
 }
 console.log(AlphabetSoup("cda"))
 
+function onlyCase(str){
+    if(str === str.toUpperCase() || str === str.toLowerCase() )
+    return true
+    else 
+    return false
+}
+console.log(onlyCase("AAAazz"))
+
 function incrementOrDecrement(num){
     if(num % 2 === 0){
         return num+=1
